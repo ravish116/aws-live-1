@@ -10,11 +10,11 @@ bucket = custombucket
 region = customregion
 
 db_conn = connections.Connection(
-    host=customhost,
+    host="mydbinstance.cpthpphjyrvz.us-east-1.rds.amazonaws.com",
     port=3306,
-    user=customuser,
-    password=custompass,
-    db=customdb
+    user="admin",
+    password="admin1234",
+    db="myapp"
 
 )
 output = {}
@@ -26,9 +26,9 @@ def home():
     return render_template('AddEmp.html')
 
 
-@app.route("/about", methods=['POST'])
+@app.route("/about", methods=['GET', 'POST'])
 def about():
-    return render_template('www.intellipaat.com')
+    return render_template('about.html')
 
 
 @app.route("/addemp", methods=['POST'])
