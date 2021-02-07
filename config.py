@@ -1,4 +1,4 @@
-customhost = "mydbinstance.cpthpphjyrvz.us-east-1.rds.amazonaws.com"
+customhost = "sm1ajhg6j0477i5.cmuq4uiatswr.ap-southeast-1.rds.amazonaws.com"
 customuser = "admin"
 custompass = "admin1234"
 customdb = "myapp"
