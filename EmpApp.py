@@ -10,7 +10,7 @@ bucket = custombucket
 region = customregion
 
 db_conn = connections.Connection(
-    host="mydbinstance.cpthpphjyrvz.us-east-1.rds.amazonaws.com",
+    host="sm1ajhg6j0477i5.cmuq4uiatswr.ap-southeast-1.rds.amazonaws.com",
     port=3306,
     user="admin",
     password="admin1234",
